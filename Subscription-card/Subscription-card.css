@@ -5,25 +5,25 @@
   }
 
 #Subscription {
-  background-color: rgb(0, 81, 255);
-  height: 600px;
+  background-color: rgb(93, 0, 0);
+  height: 575px;
 }
 .first-head {
   text-align: center;
-  color: white;
+  color:yellow;
   padding-top: 2rem;
  
   
 }
 .first-para {
   text-align: center;
-  color: white;
+  color:yellow;
   margin-top: 1rem;
  
 }
 .Billing {
   text-align: center;
-  color: white;
+  color: yellow;
  margin-top: 1rem;
 }
 .iconic {
@@ -52,17 +52,17 @@
 }
 .free {
   text-align: center;
-  color: blue;
+  color: rgb(255, 0, 0);
   margin-top: 1rem;
 }
 .s-month {
   text-align: center;
-  color: blue;
+  color: rgb(255, 0, 0);
   margin-top: 2rem;
 }
 .numb {
   text-align: center;
-  color: blue;
+  color: rgb(255, 0, 0);
   font-size: 2rem;
   font-weight: bold;
 }
@@ -84,7 +84,7 @@
    margin-top: 7rem;
    padding-top: 2px;
    padding-bottom: 2px;
-   background-color: blue;
+   color: rgb(255, 0, 0);
    color: white;
 
 }
@@ -93,7 +93,7 @@
   width: 70%;
   border-radius: 8rem;
   color: white;
-  background-color: rgb(0, 145, 255);
+  background: rgb(255, 0, 0);
   margin-top: 6rem;
   margin-left: 2rem;
   padding-top: 4px;
@@ -104,7 +104,7 @@
   width: 70%;
   border-radius: 8rem;
   color: white;
-  background-color: rgb(0, 145, 255);
+  background: rgb(255, 0, 0);
   margin-top: 3rem;
   margin-left: 2rem;
   padding-top: 4px;
@@ -115,7 +115,7 @@
   width: 70%;
   border-radius: 8rem;
   color: white;
-  background-color: rgb(0, 145, 255);
+  background: rgb(255, 0, 0);
   margin-top: 1.5rem;
   margin-left: 2rem;
   padding-top: 4px;
@@ -124,3 +124,10 @@
 } *
 .daily-monthly {
 }
+
+button:hover{
+  cursor: pointer;
+  color: rgb(242, 255, 0);
+  font-size: 16px;
+}
+

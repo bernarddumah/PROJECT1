@@ -3,7 +3,7 @@
   padding: auto;
   box-sizing: border-box;
 }
-/* /////////////////// HERO SECTION //////////////// */
+/* //////////////////// NAV. SECTION ////////////////  */
 .navcontent {
   display: flex;
   list-style: none;
@@ -13,7 +13,7 @@
   font-size: 20px;
 }
 
-body{
+body {
   background-color: black;
 }
 
@@ -32,7 +32,7 @@ body{
   align-items: center;
   justify-content: space-between;
   padding: 0.2rem 2rem;
-  background: url(/Love\ and\ Liberty.jpg);
+  background: url(/PheonixBuy/Love\ and\ Liberty.jpg);
 }
 
 #navname {
@@ -99,7 +99,7 @@ img {
 }
 
 .hero-button {
-  background: url(/Love\ and\ Liberty.jpg);
+  background: url(/PheonixBuy/Love\ and\ Liberty.jpg);
   color: white;
   /* display: flex; */
   /* display: block; */
@@ -289,7 +289,7 @@ h3 {
 .about-button {
   border-radius: 2px;
   margin-top: 8px;
-  background: url(/Love\ and\ Liberty.jpg);
+  background: url(/PheonixBuy/Love\ and\ Liberty.jpg);
   color: orange;
   font-size: 20px;
   display: flex;
@@ -309,11 +309,11 @@ h3 {
 .feature-head {
   text-align: center;
   color: white;
-  margin-bottom: 0.5rem;
+  margin-top: 18rem;
+  /* margin-bottom: 0.5rem; */
   /* border: solid white; */
-  padding-top: 14rem;
-  padding-bottom: 0.5rem;
-  
+  /* padding-top: 14rem;
+  padding-bottom: 0.5rem; */
 }
 .feature-boxes {
   border: solid- white;
@@ -328,11 +328,11 @@ h3 {
   margin-left: 120px;
   /* padding-bottom: 20px; */
   /* padding-top: 50px; */
-  margin-top: 5rem;
+  margin-top: 12rem;
 }
 .feat-box {
   width: 30%;
-  height: 250px;
+  height: 280px;
   border: 4px solid rgb(255, 255, 255);
   background-color: rgb(38, 38, 38);
   display: flex;
@@ -350,7 +350,8 @@ h3 {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+  margin-top: 2rem;
 }
 
 .icons {
@@ -370,11 +371,11 @@ h3 {
 .feat-bold {
   text-align: center;
   color: yellow;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .feat-box:hover {
-  background: url(/Love\ and\ Liberty.jpg);
+  background: url(/PheonixBuy/Love\ and\ Liberty.jpg);
 }
 .feat-box:hover {
   cursor: pointer;
@@ -390,10 +391,11 @@ h3 {
 .prod-head {
   text-align: center;
   color: white;
-  margin-bottom: 6rem;
+  margin-top: 8rem;
 }
 .prod-boxes {
-  border: solid- rgb(0, 0, 0);
+  /* border: solid white; */
+  margin-top: 12rem;
   border-width: 2px;
   /* height: 600px; */
   width: 100%;
@@ -444,7 +446,7 @@ h3 {
 .prod-button {
   border-radius: 2px;
   margin-top: 6px;
-  background: url(/Love\ and\ Liberty.jpg);
+  background: url(/PheonixBuy/Love\ and\ Liberty.jpg);
   color: rgb(255, 255, 255);
   font-size: 12px;
   justify-content: center;
@@ -480,7 +482,6 @@ button:hover {
   justify-content: center;
   gap: 4rem;
   margin-top: 8rem;
-  
 }
 
 /* ///////////////////// FIRST FOOTER SECTION ///////// */
@@ -490,10 +491,9 @@ button:hover {
   height: 300px;
   /* border: 2px solid black; */
   margin-left: 5px;
- 
+
   margin-top: 4rem;
   padding: 2rem;
-
 }
 
 .foot-news {
@@ -517,7 +517,7 @@ button:hover {
   text-align: center;
   line-height: 2rem;
   color: white;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .info {
   margin-top: 2rem;
@@ -557,7 +557,7 @@ button:hover {
   text-align: center;
   line-height: 2rem;
   color: white;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .news-container {
 }
@@ -605,7 +605,7 @@ button:hover {
   text-align: center;
   line-height: 2rem;
   color: white;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .foot-list {
   border: none;
@@ -619,7 +619,7 @@ button:hover {
 
 .last-butt {
   /* margin-top: 6px; */
-  background: url(/Love\ and\ Liberty.jpg);
+  background: url(/PheonixBuy/Love\ and\ Liberty.jpg);
   color: rgb(255, 255, 255);
   box-shadow: 1px 1px 1px orange;
   margin-left: 3rem;
@@ -629,11 +629,38 @@ button:hover {
   margin: 4rem;
 }
 
-.copyright {
-  text-align: center;
-  color: rgb(255, 255, 255);
-  margin-left: 30rem;
+.footer-copy {
+  color: white;
+  margin-top: 16rem;
+  display: flex;
+  gap: 26rem;
+  font-size: 13px;
+  
+ 
+ 
   
 }
+
+.foot-left {
+  margin-left: 3rem;
+}
+
+#nav-foot{
+  width: 70%;
+  color: rgb(0, 204, 255);
+  border: 0.1rem solid black;
+  /* padding: 0.1rem 0rem; */
+  /* margin: 0.2rem; */
+  border-color: white;
+  margin-top: 6rem;
+  text-align: center;
+ 
+}
+
+#nav-foot:hover{
+  cursor: pointer;
+  color: red;
+}
+
 
 
